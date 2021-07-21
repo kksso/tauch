@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  background: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 300;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.backhero {
+  background-image: url("./images/deep.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 164vw;
+  background-position-x: center;
+  /* background-size: contain; */
+  padding: 3rem;
+}
+
+.hero-body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  line-height: 109px;
+  font-weight: 300;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+/*# sourceMappingURL=tauch-main.css.map */

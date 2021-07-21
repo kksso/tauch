@@ -1,0 +1,53 @@
+// Variables
+
+$font-family-main: "Lato", sans-serif;
+$background-dark: #222;
+$text-dark: #000;
+
+////////////
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: $font-family-main;
+  background: $background-dark;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+  font-family: $font-family-main !important;
+  font-weight: 300;
+}
+
+.text-dark {
+  color: $text-dark !important;
+}
+
+.backhero {
+  background-image: url("./images/deep.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 164vw;
+  background-position-x: center;
+  /* background-size: contain; */
+  padding: 3rem;
+}
+
+.hero-body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  line-height: 109px;
+  font-weight: 300;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
