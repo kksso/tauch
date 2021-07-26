@@ -125,6 +125,16 @@ h3.spaced-bold {
   margin: 0 auto;
 }
 
+.border-circle-white {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
 section#2 {
   height: 200vw;
 }
