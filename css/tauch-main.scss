@@ -40,6 +40,7 @@ h3.is-bold {
   height: fit-content;
   // height: 100%;
   background-color: $dark-1;
+  scroll-snap-type: y mandatory;
 }
 
 .backhero {
@@ -124,6 +125,10 @@ h3.spaced-bold {
   position: relative;
   box-shadow: inset 0 0 0 80px $dark-1;
   margin: 0 auto;
+}
+
+h3.moment-snap {
+  scroll-snap-align: end;
 }
 
 .border-circle-white {
