@@ -16,6 +16,10 @@ small {
   font-weight: 300;
 }
 
+p {
+  letter-spacing: 0.5px;
+}
+
 section {
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -95,6 +99,13 @@ h3.spaced-bold {
 .space {
   display: block;
   height: 5rem;
+  width: 100%;
+}
+
+.space-mobile-photo-2 {
+  display: block;
+  height: 400px;
+  width: 100%;
 }
 
 .box-title {
@@ -147,5 +158,11 @@ section#2 {
 
 p.heavy {
   font-weight: 400;
+}
+
+.foot {
+  height: 1100px;
+  padding-top: 100px;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=tauch-main.css.map */
